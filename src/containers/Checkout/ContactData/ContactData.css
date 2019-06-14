@@ -1,0 +1,45 @@
+.ContactData {
+    margin: 20px auto;
+    width:100%;
+    text-align: center;
+    /* added code according to video */
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px soild #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* .Input{
+    display: block;
+} */ 
+
+
+@media (min-width : 600px){
+    .ContactData{
+        width:500px; 
+    }
+}
+
+.ContactData h4{
+    color: crimson;
+    text-align: center
+}
+
+/* .ContactData form{
+    border-radius: 5px;
+    background-color:#f2f2f2;
+    padding: 10px;
+}
+.ContactData input{
+    width: 80%;
+    padding : 5px 5px;
+    margin: 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+} */
+
+
+
+
